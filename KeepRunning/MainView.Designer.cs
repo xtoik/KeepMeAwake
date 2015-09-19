@@ -43,9 +43,9 @@
             // lblInformation
             // 
             this.lblInformation.AutoSize = true;
-            this.lblInformation.Location = new System.Drawing.Point(159, 30);
+            this.lblInformation.Location = new System.Drawing.Point(160, 24);
             this.lblInformation.Name = "lblInformation";
-            this.lblInformation.Size = new System.Drawing.Size(316, 91);
+            this.lblInformation.Size = new System.Drawing.Size(316, 104);
             this.lblInformation.TabIndex = 0;
             this.lblInformation.Text = resources.GetString("lblInformation.Text");
             // 
@@ -76,7 +76,7 @@
             this.nicMainCtxMenuItemShow,
             this.nicMainCtxMenuItemExit});
             this.nicMainContextMenuStrip.Name = "nicMainContextMenuStrip";
-            this.nicMainContextMenuStrip.Size = new System.Drawing.Size(153, 70);
+            this.nicMainContextMenuStrip.Size = new System.Drawing.Size(117, 48);
             this.nicMainContextMenuStrip.Text = "KeepMeAwake";
             this.nicMainContextMenuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.nicMainContextMenuStrip_ItemClicked);
             // 
@@ -105,7 +105,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainView";
-            this.Opacity = 0.7D;
+            this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KeepMeAwake";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainView_FormClosed);

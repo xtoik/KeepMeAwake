@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KeepMeAwake</RootNamespace>
-    <AssemblyName>KeepRunning</AssemblyName>
+    <AssemblyName>KeepMeAwake</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -79,9 +79,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Img\KeepMeAwake.ico" />
-    <Content Include="Img\KeepMeAwake.png" />
+    <None Include="Img\KeepMeAwake.ico" />
+    <None Include="Img\KeepMeAwake.png" />
     <None Include="Resources\KeepMeAwake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\KeepMeAwake.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
